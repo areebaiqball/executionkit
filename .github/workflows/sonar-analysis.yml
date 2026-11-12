@@ -20,5 +20,5 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=executionkit
-            -Dsonar.organization=areebaiqball_executionkit
+            -Dsonar.organization=executionkit
             -Dsonar.sources=.
