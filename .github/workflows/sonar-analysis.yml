@@ -27,6 +27,8 @@ jobs:
           python -m pip install --upgrade pip
           # Install your project in editable mode so tests can find 'executionkit'
           pip install -e .
+
+          pip install pytest pytest-cov hypothesis pytest-asyncio
           
           # Install testing tools
           pip install pytest pytest-cov
